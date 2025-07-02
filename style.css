@@ -2125,7 +2125,7 @@ textarea.w-input,textarea.w-select {
 .section_timelapse_700 {
     position: relative;
     width: 100vw;
-    height: 650vh;
+    height: 100vh;
     background-color: #000
 }
 
@@ -2339,7 +2339,7 @@ textarea.w-input,textarea.w-select {
     height: 100vh
 }
 
-/* Insert 2 Aib Disini*/
+/* Insert 3 Photo Disini*/
 .brew_bild_1 {
     position: absolute;
     left: 4vw;
@@ -2348,7 +2348,7 @@ textarea.w-input,textarea.w-select {
     bottom: auto;
     width: 24vw;
     height: 32vw;
-    background-image: url("#");
+    background-image: url("assets/img13.jpg");
     background-position: 50% 50%;
     background-size: cover
 }
@@ -2359,7 +2359,7 @@ textarea.w-input,textarea.w-select {
     bottom: 0;
     width: 24vw;
     height: 32vw;
-    background-image: url("#");
+    background-image: url("assets/myself.jpg");
     background-position: 50% 50%;
     background-size: cover
 }
@@ -2370,7 +2370,7 @@ textarea.w-input,textarea.w-select {
     min-height: 750px;
     min-width: 1000px;
     background-color: #000;
-    background-image: url("#");
+    background-image: url("assets/img12.jpg");
     background-position: 50% 50%;
     background-size: cover
 }
@@ -2569,13 +2569,14 @@ textarea.w-input,textarea.w-select {
     height: 40vw
 }
 
+/* Foto Horizontal*/
 .slideshow_1 {
     position: absolute;
     left: 4vw;
     right: auto;
     width: 30vw;
     height: 40vw;
-    background-image: url("https://uploads-ssl.webflow.com/60805733151b6718a943682f/6093fbec9ce2387ebe052fdc_Slideshow_Kleben_04_Tiny.jpg");
+    background-image: url("assets/img11.jpg");
     background-position: 50% 50%;
     background-size: cover
 }
@@ -2584,7 +2585,7 @@ textarea.w-input,textarea.w-select {
     position: absolute;
     width: 30vw;
     height: 40vw;
-    background-image: url("https://uploads-ssl.webflow.com/60805733151b6718a943682f/6093fbec985b86111a5a652b_Slideshow_Kleben_03_Tiny.jpg");
+    background-image: url("assets/img1.jpg");
     background-position: 50% 50%;
     background-size: cover
 }
@@ -2594,7 +2595,7 @@ textarea.w-input,textarea.w-select {
     right: 4vw;
     width: 30vw;
     height: 40vw;
-    background-image: url("https://uploads-ssl.webflow.com/60805733151b6718a943682f/6093fbec11d7ff29f38cae79_Slideshow_Kleben_02_Tiny.jpg");
+    background-image: url("assets/img14.jpg");
     background-position: 50% 50%;
     background-size: cover
 }
@@ -2619,6 +2620,7 @@ textarea.w-input,textarea.w-select {
     align-items: center
 }
 
+/* Photo Go Up*/
 .stapel_bild_4 {
     position: absolute;
     z-index: 10;
@@ -2629,7 +2631,6 @@ textarea.w-input,textarea.w-select {
     position: absolute;
     z-index: 20;
     width: 72vh;
-    background-image: url("https://uploads-ssl.webflow.com/60805733151b6718a943682f/609918fddec17c54dbb99df0_Clou_Bild_Albi_Anja_SW_Tiny.jpg");
     background-position: 50% 50%;
     background-size: cover
 }
@@ -2638,7 +2639,6 @@ textarea.w-input,textarea.w-select {
     position: absolute;
     z-index: 40;
     width: 72vh;
-    background-image: url("https://uploads-ssl.webflow.com/60805733151b6718a943682f/609918fde3642d3c8649928c_Clou_Bild_Anja_SW_Tiny.jpg");
     background-position: 10% 50%;
     background-size: cover
 }
@@ -2647,7 +2647,6 @@ textarea.w-input,textarea.w-select {
     position: absolute;
     z-index: 30;
     width: 54vh;
-    background-image: url("https://uploads-ssl.webflow.com/60805733151b6718a943682f/609918fdb053a7ee5fc3ec0f_Clou_Bild_Cyrill_SW_Tiny.jpg");
     background-position: 0 0;
     background-size: cover
 }
@@ -2860,9 +2859,6 @@ textarea.w-input,textarea.w-select {
 }
 
 .animation_wrapper {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     overflow: hidden;
     width: 100vw;
@@ -2981,7 +2977,7 @@ textarea.w-input,textarea.w-select {
 
 @media screen and (max-width: 479px) {
     .section_timelapse_700 {
-        height:600vh;
+        height:100vh;
         background-color: transparent
     }
 
